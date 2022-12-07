@@ -1,0 +1,1 @@
+package com.assessment.ekos.resource;import lombok.Data;import lombok.NoArgsConstructor;@NoArgsConstructor@Datapublic class UserResource {    private String email;    private String password;    private String firsName;    private String lastName;}
