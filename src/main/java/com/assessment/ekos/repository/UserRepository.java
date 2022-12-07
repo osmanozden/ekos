@@ -1,0 +1,1 @@
+package com.assessment.ekos.repository;import com.assessment.ekos.model.User;import org.springframework.stereotype.Repository;import java.util.Optional;@Repositorypublic interface UserRepository {    User getByEmail(String email);    Optional<User> findOneByEmail(String email);}

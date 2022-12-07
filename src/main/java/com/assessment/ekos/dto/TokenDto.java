@@ -1,0 +1,1 @@
+package com.assessment.ekos.dto;import lombok.Data;import java.util.Date;@Datapublic class TokenDto extends GenericDto {    private String token;    private Date expireDate;}
